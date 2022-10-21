@@ -1,0 +1,149 @@
+.container05 {
+  background-image: url(../assets/img/falcon9/01.jpg);
+}
+
+.container06 {
+  background-image: url(../assets/img/falcon9/02.jpg);
+}
+.container07 {
+  background-image: url(../assets/img/falcon9/02.jpg);
+}
+
+.container08 {
+  background-image: url(../assets/img/falcon9/08.jpg);
+}
+
+.containerCarrousel01 {
+  background-image: url(../assets/img/falcon9/03.jpg);
+}
+
+.containerCarrousel02 {
+  background-image: url(../assets/img/falcon9/04.jpg);
+}
+
+.containerCarrousel03 {
+  background-image: url(../assets/img/falcon9/05.jpg);
+}
+
+.containerCarrousel04 {
+  background-image: url(../assets/img/falcon9/06.jpg);
+}
+
+.containerCarrousel05 {
+  background-image: url(../assets/img/falcon9/07.jpg);
+}
+.containerCarrousel05 {
+  background-image: url(../assets/img/falcon9/07.jpg);
+}
+
+.titleContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 80vh;
+}
+
+.titleFalcon9 {
+  font-size: 90px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 514;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #000;
+  min-height: 40vh;
+  h1 {
+    font-size: 90px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+
+.falcon9Desc {
+  font-size: 22px;
+  width: 640px;
+  line-height: 50px;
+}
+
+#overViewPosition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+
+.carrosselSlide img {
+  height: 100vh;
+}
+
+.carousel-caption p {
+  background-color: #000;
+}
+
+.downloadDesc {
+  background-color: #000;
+  min-height: 85vh;
+  padding-top: 240px;
+  a {
+    color: $link-hover !important;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 763px) {
+  .falcon9Desc {
+    width: 500px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 524px) {
+  .falcon9Desc {
+    width: auto;
+  }
+}
+@media (max-width: 512px) {
+  .titleFalcon9 {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 466px) {
+  .falcon9Desc {
+    width: auto;
+    font-size: 16px;
+  }
+  #overViewPosition {
+    margin-left: 0;
+    width: auto;
+  }
+}
+@media (max-width: 598px) {
+  .falcon9Desc {
+    width: auto;
+    font-size: 16px;
+  }
+  #overViewPosition {
+    margin-left: 0;
+    width: auto;
+  }
+}
+@media (max-width: 482px) {
+  .downloadDesc button {
+    margin: 15px 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .titleFalcon9 {
+    font-size: 55px;
+  }
+}
+@media (max-width: 332px) {
+  .titleFalcon9 {
+    font-size: 45px;
+  }
+}
